@@ -25,19 +25,23 @@ header li a{
     text-align: center;
 }
 
-section {
-    padding-top: 4px;
-    padding-bottom: 4px;
+h1 {
+    text-align: center;
+    font-size: 26px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
     border-top: 2px solid #a3c5cf;
     border-bottom: 2px solid #a3c5cf;
 }
 
-h1 {
-    text-align: center;
-}
-
 h3 {
-    text-align: center; 
+    text-align: center;
+    font-size: 18px;
 }
 
 .dbl_col {
@@ -46,4 +50,51 @@ h3 {
     display: inline-block;
     padding: 5px;
     text-align: left;
+}
+
+.left_para {
+    float: left;
+    width: 40%;
+}
+
+.right_para {
+    float: right;
+    width: 40%
+}
+
+.clear {
+    clear: both;
+}
+
+.contact_box {
+    background-color: #a3c5cf;
+    width: 40%;
+    padding: 5px 20px 5px 100px;
+    text-align: left;
+    margin: auto;
+    color: #ffffff;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+
+.submit_btn {
+    padding:5px 15px;
+    background: #fff;
+    width: 200px;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+
+.text_box_style {
+    width: 200px;
+	height: 120px;
+	padding: 2px;
+}
+
+.text_label_style {
+    width: 200px;
+	height: 20px;
+	padding: 2px;
 }
