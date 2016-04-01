@@ -1,25 +1,29 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 header {
-	background-color: #a3c5cf;
+	background-color: #59889b;
 	height: 48px;
 	position: fixed;
 	top: 0px;
 	left: 0px;
 	width: 100%;
 	text-align: center;
+    border-bottom: 1px solid #000;
 }
 
 header li {
+    padding: 0px 15px 0px 15px;
 	display: inline;
 }
 
 header li a {
-	padding: 0px 15px 0px 15px;
 	color: #FFFFFF;
 	text-decoration: none;
 }
 
 header li a:hover {
-	padding: 0px 20px 0px 20px;
 	color: #434343;
 	text-decoration: none;
 }
@@ -49,9 +53,9 @@ h3 {
 }
 
 hr {
-    color: #a3c5cf;
+    color: #59889b;
     height: 2px;
-    background-color: #a3c5cf
+    background-color: #59889b;
     
 }
 
@@ -89,7 +93,7 @@ hr {
 }
 
 .contact_box {
-    background-color: #a3c5cf;
+    background-color: #59889b;
     width: 40%;
     padding: 5px 20px 5px 100px;
     text-align: left;
@@ -132,7 +136,7 @@ footer a {
 }
 
 footer a:hover {
-    color: #a3c5cf;
+    color: #59889b;
 }
 
 footer a:visited {
